@@ -12,4 +12,5 @@ Reconstruct the three-dimensional structure of an acupuncture needle handle from
 
 3. **Reconstruct the acupuncture needle handle.**
 
+![](https://github.com/YH188/Needle-Reconstruction/front.jpg)  
 Note that you should download "needleREconstruction.mp4" to see the reconstruction result.
