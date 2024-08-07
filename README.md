@@ -4,7 +4,7 @@ Reconstruct the three-dimensional structure of an acupuncture needle handle from
 
 1. **First, preprocess the input image** 
     - Perform background removal and resampling of the foreground object.
-   ![]([image.png](front_rgba.png))
+   ![预处理后的图像](front_rgba.png)
 
 2. **Use a two-stage framework to provide efficient 3D content generation for the Image-to-3D task.**
     - First, incorporate 3D Gaussian splatting into the generation task through SDS (Score Distillation Sampling) for efficient initialization.
