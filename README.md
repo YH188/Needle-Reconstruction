@@ -4,7 +4,7 @@ Reconstruct the three-dimensional structure of an acupuncture needle handle from
 
 1. **First, preprocess the input image** 
     - Perform background removal and resampling of the foreground object.
-
+![预处理后的图像]([image.png](https://github.com/YH188/Needle-Reconstruction/front_rgba.png))
 2. **Use a two-stage framework to provide efficient 3D content generation for the Image-to-3D task.**
     - First, incorporate 3D Gaussian splatting into the generation task through SDS (Score Distillation Sampling) for efficient initialization.
     - Next, use block-wise local density queries and Color Back-projection to extract a textured mesh from the 3D Gaussians, employing an empirical threshold of 1 for Marching Cubes during mesh extraction.
